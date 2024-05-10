@@ -126,7 +126,7 @@ repositories {
 }
 
 dependencies {
-    implementation fg.deobf("software.bernie.geckolib:geckolib-forge-${minecraft_version}:${geckolib_version}")
+    implementation fg.deobf("software.bernie.geckolib:geckolib-forge-1.19:3.1.40")
     implementation("com.eliotlash.mclib:mclib:20")
     // Specify the version of Minecraft to use.
     // Any artifact can be supplied so long as it has a "userdev" classifier artifact and is a compatible patcher artifact.
